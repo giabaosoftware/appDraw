@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Vẽ nền trắng và 100 SVG ngẫu nhiên
     function drawCanvas() {
         setCanvasBackground();
-        for (let i = 0; i < 2250; i++) {
+        for (let i = 0; i < 2500; i++) {
             loadAndDrawSVG();
         }
     }
