@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'icon2.svg',
         'icon3.svg',
         'icon4.svg',
+        'icon5.svg',
         // Thêm các đường dẫn SVG khác vào đây
     ];
 
@@ -55,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Vẽ nền trắng và 100 SVG ngẫu nhiên
     function drawCanvas() {
         setCanvasBackground();
-        for (let i = 0; i < 2500; i++) {
+        for (let i = 0; i < 2250; i++) {
             loadAndDrawSVG();
         }
     }
