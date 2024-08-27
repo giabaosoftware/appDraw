@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
         'icon2.svg',
         'icon3.svg',
         'icon4.svg',
-        'icon5.svg',
         // Thêm các đường dẫn SVG khác vào đây
     ];
 
