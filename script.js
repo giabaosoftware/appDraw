@@ -74,11 +74,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Chức năng chụp và lưu trữ hình ảnh
-    captureButton.addEventListener('click', function() {
-        const dataURL = canvas.toDataURL('image/png');
+   captureButton.addEventListener('click', function() {
+        const dataURL = canvas.toDataURL('image/jpeg'); // Thay đổi định dạng từ PNG sang JPEG
         const link = document.createElement('a');
         link.href = dataURL;
-        link.download = 'hinh_canvas.png';
+        link.download = 'hinh_canvas.jpeg'; // Đặt tên file là .jpeg
         link.click();
     });
 
